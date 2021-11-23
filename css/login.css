@@ -1,0 +1,160 @@
+/* login */
+.login {
+  height: 304px;
+  margin-bottom: 25px;
+  background-color: #EDF4EC;
+}
+
+.login .maincontent {
+  width: 1350px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.login .maincontent .backgroundpic {
+  float: left;
+  height: 100%;
+  width: 657px;
+  background: url(../img/login-bgp.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.login .maincontent .downloadqrcode {
+  float: left;
+  width: 190px;
+}
+
+.login .maincontent .downloadqrcode p {
+  margin: 95px 0 20px;
+  font-size: 25px;
+  color: #111;
+}
+
+.login .maincontent .downloadqrcode .download button {
+  float: left;
+  width: 115px;
+  height: 30px;
+  color: #fff;
+  background-color: #00B51D;
+  border: none;
+  margin-right: 5px;
+}
+
+.login .maincontent .downloadqrcode .download .qrcode {
+  float: left;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #00B51D;
+  border-radius: 2px;
+  padding: 1px;
+}
+
+.login .maincontent .downloadqrcode .download .qrcode img {
+  width: 100%;
+  height: 100%;
+}
+
+.login .maincontent .loginform {
+  float: left;
+  width: 280px;
+  height: 260px;
+  padding: 30px 10px 10px;
+  font-size: 12px;
+}
+
+.login .maincontent .loginform .login-header {
+  position: relative;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  color: #9b9b9b;
+}
+
+.login .maincontent .loginform .login-header div {
+  float: left;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login .maincontent .loginform .login-header div:active {
+  color: #111;
+  border-bottom: 1px solid #111;
+}
+
+.login .maincontent .loginform .login-header span {
+  position: absolute;
+  margin-top: -18px;
+  right: 0;
+  top: 0;
+}
+
+.login .maincontent .loginform .login-header span img {
+  width: 28px;
+  height: 28px;
+}
+
+.login .maincontent .loginform .login-message {
+  margin-bottom: 10px;
+  color: #9b9b9b;
+}
+
+.login .maincontent .loginform .login-message a {
+  color: #41ac52;
+}
+
+.login .maincontent .loginform form {
+  height: 120px;
+}
+
+.login .maincontent .loginform form input {
+  width: 178px;
+  height: 15px;
+  padding: 8px 40px 8px 60px;
+  margin-bottom: 10px;
+  border: 1px solid #EDF4EC;
+  outline: none;
+}
+
+.login .maincontent .loginform form input:last-of-type {
+  padding-left: 0;
+  width: 238px;
+}
+
+.login .maincontent .loginform form button {
+  display: block;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background-color: #41ac52;
+  border: none;
+  border-radius: 2px;
+}
+
+.login .maincontent .loginform .app-message {
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  border-bottom: 1px solid #ddd;
+  color: #41ac52;
+  font-size: 13px;
+}
+
+.login .maincontent .loginform .thirdlogin {
+  padding-top: 10px;
+}
+
+.login .maincontent .loginform .thirdlogin span {
+  color: #9b9b9b;
+}
+
+.login .maincontent .loginform .thirdlogin a {
+  margin-left: 12px;
+}
+
+.login .maincontent .loginform .thirdlogin a img {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}

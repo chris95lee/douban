@@ -1,0 +1,105 @@
+/* hotcontent */
+.hotcontent {
+  height: 505px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.hotcontent .wrapper {
+  display: flex;
+}
+
+.hotcontent .hotcontent-main {
+  flex: 7;
+  height: 452px;
+}
+
+.hotcontent .hotcontent-main .hotcontent-container {
+  display: flex;
+  height: 100%;
+}
+
+/* hotcontent-photo */
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-photo {
+  flex: 5;
+  height: 100%;
+}
+
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-photo ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-photo ul li {
+  flex: 1;
+}
+
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-photo ul li span {
+  font-size: 12px;
+  color: #999;
+  margin-left: 5px;
+}
+
+/* hotcontent-article */
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-article {
+  flex: 4;
+  padding: 0 10px;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-article li {
+  margin-bottom: 12px;
+}
+
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-article .author {
+  color: #999;
+}
+
+.hotcontent .hotcontent-main .hotcontent-container .hotcontent-article p {
+  color: #666;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+/* aside */
+.hotcontent .hotcontent-aside {
+  flex: 3;
+  margin: 0 -20px 0 10px;
+  height: 504px;
+}
+
+.hotcontent .hotcontent-aside .aside-ad {
+  width: 250px;
+  height: 125px;
+  margin: 10px 0;
+}
+
+.hotcontent .hotcontent-aside .aside-ad a img {
+  width: 100%;
+}
+
+.hotcontent .hotcontent-aside .hottopic .hottopic-title {
+  color: #072;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.hotcontent .hotcontent-aside .hottopic a {
+  font-size: 14px;
+  color: #37a;
+}
+
+.hotcontent .hotcontent-aside .hottopic li {
+  margin: 10px 0 15px;
+}
+
+.hotcontent .hotcontent-aside .hottopic p {
+  font-size: 13px;
+  color: #999;
+}
